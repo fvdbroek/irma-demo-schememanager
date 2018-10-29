@@ -1,0 +1,51 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Mandate</en>
+		<nl>Demo Mandaat</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Mandate</en>
+		<nl>Demo Mandaat</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>vgz</IssuerID>
+	<CredentialID>mandaat</CredentialID>
+	<Description>
+		<en>A mandate for you, useable to access the Mijn VGZ environment, on behalf of the person who mandated you</en>
+		<nl>Met dit mandaat krijgt u toegang tot Mijn VGZ van degene die dit mandaat aan u verstrekt heeft</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="id">
+			<Name>
+				<en>ID</en>
+				<nl>ID</nl>
+			</Name>
+			<Description>
+				<en>A unique ID for this mandate</en>
+				<nl>Een uniek ID voor dit mandaat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="clientnumber">
+			<Name>
+				<en>Client number</en>
+				<nl>Klantnummer</nl>
+			</Name>
+			<Description>
+				<en>The client number of the client who mandated you</en>
+				<nl>Het klantnummer van de VGZ verzekerde die dit mandaat aan u verstrekt heeft</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mandatefullname">
+			<Name>
+				<en>Fullname</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>The full name of the VGZ client who mandated you</en>
+				<nl>De naam van de VGZ verzekerde die dit mandaat aan u verstrekt heeft</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
